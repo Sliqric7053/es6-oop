@@ -8,6 +8,6 @@ export class Image extends BaseElement {
 
   //   override same method name in base class
   getElementString() {
-    return ` <img src=${this.src} style="width:100%;"> `;
+    return ` <img src="${this.src}" style="width: 100%;"/> `;
   }
 }
